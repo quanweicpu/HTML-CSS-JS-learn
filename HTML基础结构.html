@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- Meta 标签，用于定义文档的字符集和视口设置 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 页面标题，会显示在浏览器标签栏 -->
+    <title>我的个人简历</title>
+    
+    <!-- CSS 样式，简单的内联样式，方便调试 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* 设置字体 */
+            background-color: #f4f4f4; /* 设置背景色 */
+            margin: 0;
+            padding: 20px; /* 页面内边距 */
+        }
+        .container {
+            width: 80%; /* 页面内容宽度 */
+            margin: 0 auto; /* 自动水平居中 */
+            background-color: #fff; /* 背景色为白色 */
+            padding: 20px; /* 内边距 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+        }
+        header {
+            text-align: center; /* 头像和文字居中 */
+        }
+        header img {
+            border-radius: 50%; /* 头像设置为圆形 */
+            width: 150px; /* 头像宽度 */
+            height: 150px; /* 头像高度 */
+        }
+        h1 {
+            color: #333; /* 设置主标题的颜色 */
+        }
+        .section-title {
+            font-size: 1.5em; /* 设置小标题字体大小 */
+            color: #007BFF; /* 设置小标题颜色 */
+            margin-top: 20px; /* 设置标题与上方内容的间距 */
+        }
+        .contact-info p {
+            margin: 5px 0; /* 设置联系方式段落的上下间距 */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 主体内容区域 -->
+    <div class="container">
+        <!-- 个人信息部分 -->
+        <header>
+            <!-- 个人头像，使用占位图，替换为你自己的头像 -->
+            <img src="https://via.placeholder.com/150" alt="我的头像">
+            <!-- 姓名，使用 h1 标签 -->
+            <h1>张三</h1>
+            <!-- 个人简介，使用 p 标签 -->
+            <p>电子商务专业 | Web 开发爱好者</p>
+        </header>
+
+        <!-- 联系方式部分 -->
+        <section class="contact-info">
+            <!-- 小标题：联系方式 -->
+            <div class="section-title">联系方式</div>
+            <!-- 联系方式：使用 p 标签来展示信息 -->
+            <p>电话：123-456-7890</p>
+            <p>邮箱：zhangsan@example.com</p>
+            <p>地址：北京市朝阳区</p>
+            <!-- 个人网站：使用 a 标签做超链接 -->
+            <p>个人网站：<a href="https://www.example.com" target="_blank">www.example.com</a></p>
+        </section>
+
+        <!-- 教育背景部分 -->
+        <section class="education">
+            <!-- 小标题：教育背景 -->
+            <div class="section-title">教育背景</div>
+            <!-- 教育信息，使用 p 标签 -->
+            <p><strong>北京大学</strong> - 电子商务专业 (2018 - 2022)</p>
+        </section>
+
+        <!-- 技能部分 -->
+        <section class="skills">
+            <!-- 小标题：技能 -->
+            <div class="section-title">技能</div>
+            <!-- 技能列表，使用 ul 和 li 标签 -->
+            <ul>
+                <li>HTML/CSS/JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>数据库：MySQL, MongoDB</li>
+                <li>Git版本控制</li>
+            </ul>
+        </section>
+
+        <!-- 工作经历部分 -->
+        <section class="experience">
+            <!-- 小标题：工作经历 -->
+            <div class="section-title">工作经历</div>
+            <!-- 工作经历，使用 p 和 ul/li 标签 -->
+            <p><strong>前端开发实习生</strong> - 腾讯公司 (2021年6月 - 2021年9月)</p>
+            <ul>
+                <li>参与公司内部项目的前端开发，使用 React 实现功能模块。</li>
+                <li>优化网站性能，提升用户体验。</li>
+            </ul>
+        </section>
+
+        <!-- 项目经验部分 -->
+        <section class="projects">
+            <!-- 小标题：项目经验 -->
+            <div class="section-title">项目经验</div>
+            <!-- 项目信息，使用 p 和 ul/li 标签 -->
+            <p><strong>在线商城平台</strong></p>
+            <ul>
+                <li>使用 HTML, CSS, JavaScript 实现电商网站前端页面。</li>
+                <li>实现商品列表展示、购物车功能、订单结算流程。</li>
+                <li>使用 Ajax 动态加载商品数据。</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
