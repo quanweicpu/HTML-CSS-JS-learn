@@ -1,1 +1,0 @@
-let demo: string = 'qwamv html css javascript'
